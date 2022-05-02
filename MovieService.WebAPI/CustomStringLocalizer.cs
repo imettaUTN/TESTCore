@@ -52,7 +52,9 @@ namespace MovieService.WebAPI
 
         public IStringLocalizer WithCulture(CultureInfo culture)
         {
-            throw new NotImplementedException();
+             
+ 
+           return this;
         }
 
         public LocalizedString this[string name] => throw new NotImplementedException();
